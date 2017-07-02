@@ -14,3 +14,8 @@ cd wiringPi
 git clone --recursive git://github.com/ninjablocks/433Utils.git
 cd 433Utils/RPi_utils
 make all
+
+# Get Blynk
+git clone https://github.com/blynkkk/blynk-library.git
+cd blynk-library/linux
+make clean all target=raspberry
