@@ -35,10 +35,11 @@
 #define BLYNK_PRINT stdout
 
 #ifdef RASPBERRY
-#include <BlynkApiWiringPi.h>
+  #include <BlynkApiWiringPi.h>
 #else
-#include <BlynkApiLinux.h>
+  #include <BlynkApiLinux.h>
 #endif
+
 #include <BlynkSocket.h>
 #include <BlynkOptionsParser.h>
 

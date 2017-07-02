@@ -16,6 +16,6 @@ cd 433Utils/RPi_utils
 make all
 
 # Get Blynk
-git clone https://github.com/blynkkk/blynk-library.git
+git clone https://github.com/blynkkk/blynk-library
 cd blynk-library/linux
-make clean all target=raspberry
+make all 
