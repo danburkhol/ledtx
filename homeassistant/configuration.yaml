@@ -61,3 +61,22 @@ tts:
 group: !include groups.yaml
 automation: !include automations.yaml
 
+device_tracker:
+  - platform: icloud
+    username: agentdax5@gmail.com
+    password: 
+
+media_player:
+  - platform: kodi
+    host: 192.168.0.24
+    name: Sasha
+
+mysensors:
+  gateways:
+    - device: '/dev/ttyUSB0'
+      persistence_file: 'path/mysensors.json'
+      baud_rate: 38400
+  optimistic: false
+  persistence: true
+  retain: true
+  version: 2.0
