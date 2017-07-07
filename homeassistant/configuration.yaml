@@ -74,7 +74,7 @@ media_player:
 mysensors:
   gateways:
     - device: '/dev/ttyUSB0'
-      persistence_file: 'path/mysensors.json'
+      # persistence_file: 'git/ledtx/mysensors.json'
       baud_rate: 38400
   optimistic: false
   persistence: true
